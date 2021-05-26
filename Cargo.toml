@@ -1,0 +1,23 @@
+[package]
+name = "tamerzgotcha"
+version = "0.1.0"
+authors = ["Israel Dahl <israeldahl@protonmail.com>"]
+edition = "2018"
+description = "A clicking adventure to level up your creature"
+keywords = ["game","animal","creature","kid","click"]
+categories = ["game"]
+readme = "README.md"
+license-file = "LICENSE"
+#repository = "https://github.com/1sra3l/xdgkit"
+#homepage = "https://fredesktop.org"
+#documentation = "https://docs.rs/xdgkit/"
+
+
+[dependencies]
+# game stizzle
+macroquad = "0.3"
+# audio since above doesn't work :(
+ears = "0.8.0"
+
+# ini file reader
+tini = "1.0"
